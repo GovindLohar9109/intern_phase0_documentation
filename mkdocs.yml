@@ -1,0 +1,37 @@
+site_name: E-Learning Management System
+site_description: Documentation for the E-Learning Management System built using the MERN stack
+site_author: Govind Lohar
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.integrate
+
+nav:
+  - 📘 Functional Documentation:
+      - Project Overview: overview.md
+      - Functional Use Case: use_case/functional.md
+      - Business Use Case: use_case/business.md
+      - Use Case Diagram: use_case/use_case_diagram.md
+      - ER Diagram: er_diagram.md
+
+  - ⚙️ Technical Documentation:
+      - AWS Specific Architecture: technical_documentation/aws.md
+      - Data Flow Diagram (DFD): technical_documentation/dfd.md
+      - Authentication & Authorization: technical_documentation/auth.md
+      - Tech Stack: technical_documentation/techstack.md
+
+  - 🚀 Future Scope: futurescope.md
+ 
+plugins:
+  - search
+  - mermaid2
