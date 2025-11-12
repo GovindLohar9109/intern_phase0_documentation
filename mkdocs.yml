@@ -17,20 +17,20 @@ theme:
     - toc.integrate
 
 nav:
-  - 📘 Functional Documentation:
+  - Functional Documentation:
       - Project Overview: overview.md
       - Functional Use Case: use_case/functional.md
       - Business Use Case: use_case/business.md
       - Use Case Diagram: use_case/use_case_diagram.md
       - ER Diagram: er_diagram.md
 
-  - ⚙️ Technical Documentation:
+  - Technical Documentation:
       - AWS Specific Architecture: technical_documentation/aws.md
       - Data Flow Diagram (DFD): technical_documentation/dfd.md
       - Authentication & Authorization: technical_documentation/auth.md
       - Tech Stack: technical_documentation/techstack.md
 
-  - 🚀 Future Scope: futurescope.md
+  - Future Scope: futurescope.md
  
 plugins:
   - search
