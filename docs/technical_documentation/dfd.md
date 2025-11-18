@@ -37,7 +37,7 @@ Both interact with the system’s central processes through a secure authenticat
 | Process | Description |
 |----------|--------------|
 | **P1 – User Authentication** | Handles user and admin login/registration. Validates credentials and fetches role-based access data from the database. |
-| **P2 – Course Management** | Allows admins to create, update, or delete courses, and enables users to view or search available courses. |
+| **P2 – Course Management** | Allows admins to update, or delete courses, and enables users to view or search available courses. |
 | **P3 – User Course Management** | Manages course enrollment. Tracks which users are enrolled in which courses. |
 | **P4 – Feedback Management** | Stores and retrieves user feedback for specific courses. |
 | **P5 – Admin Dashboard** | Displays analytics like total users, courses for the admin panel. |

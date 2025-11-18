@@ -58,15 +58,12 @@ The **E-Learning Management System (ELMS)** allows users to learn through free d
 - Admins are redirected to the **Admin Dashboard** after login.
 - The dashboard provides a full overview of available courses and management actions.
 
-### 3.2 Add New Course
-- Admin can create new courses with details:
-s
-### 3.3 Edit Existing Course
+### 3.2 Edit Existing Course
 - Admins can modify existing course details:
 
-### 3.4 Delete Course
+### 3.3 Delete Course
 - Admins can delete courses permanently.
-## 3.5 Dashboard
+## 3.4 Dashboard
 - Admin Will be able to see total courses
 - Admin will be able to see total users
 

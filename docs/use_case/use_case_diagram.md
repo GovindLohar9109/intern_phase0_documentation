@@ -13,7 +13,7 @@ It helps in understanding the system’s functionality from the user's perspecti
 
 ###  Major Use Cases:
 - **Authentication:** Handles user login and registration.
-- **Course Management:** Allows adding, updating, and deleting courses (admin) and viewing or enrolling (user).
+- **Course Management:** Allows updating, and deleting courses (admin) and viewing or enrolling (user).
 - **Feedback System:** Users can share feedback for improvement.
 - **Profile & Dashboard:** Users can view/edit their profiles, while admins can monitor key statistics.
 
