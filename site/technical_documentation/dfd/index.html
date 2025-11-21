@@ -713,7 +713,7 @@ It visually represents the interaction between <strong>external entities</strong
 <p><img alt="AWS Architecture" src="../../static/dfd0.png" />
 At the highest level, the ELMS consists of two main external entities:</p>
 <ul>
-<li><strong>User:</strong> Learns, enrolls in courses, and provides feedback.  </li>
+<li><strong>User:</strong> Learns, enrolls in courses</li>
 <li><strong>Admin:</strong> Manages users, courses, and monitors system activity.</li>
 </ul>
 <p>Both interact with the system’s central processes through a secure authentication mechanism.</p>
@@ -732,11 +732,11 @@ At the highest level, the ELMS consists of two main external entities:</p>
 <tbody>
 <tr>
 <td><strong>User</strong></td>
-<td>The learner who registers, logs in, enrolls in courses, and provides feedback.</td>
+<td>The learner who registers, logs in, enrolls in courses,</td>
 </tr>
 <tr>
 <td><strong>Admin</strong></td>
-<td>The system administrator who manages courses, monitors feedback, and oversees users through the dashboard.</td>
+<td>The system administrator who manages courses</td>
 </tr>
 </tbody>
 </table>
@@ -763,11 +763,7 @@ At the highest level, the ELMS consists of two main external entities:</p>
 <td>Manages course enrollment. Tracks which users are enrolled in which courses.</td>
 </tr>
 <tr>
-<td><strong>P4 – Feedback Management</strong></td>
-<td>Stores and retrieves user feedback for specific courses.</td>
-</tr>
-<tr>
-<td><strong>P5 – Admin Dashboard</strong></td>
+<td><strong>P4 – Admin Dashboard</strong></td>
 <td>Displays analytics like total users, courses for the admin panel.</td>
 </tr>
 </tbody>
@@ -799,11 +795,7 @@ At the highest level, the ELMS consists of two main external entities:</p>
 <td>Maps users to their enrolled courses (many-to-many relationship).</td>
 </tr>
 <tr>
-<td><strong>D5 – Feedbacks</strong></td>
-<td>Contains user-submitted feedback messages for courses.</td>
-</tr>
-<tr>
-<td><strong>D6 – User_Roles</strong></td>
+<td><strong>D5 – User_Roles</strong></td>
 <td>Links users to their assigned roles for role-based access control.</td>
 </tr>
 </tbody>
@@ -814,7 +806,7 @@ At the highest level, the ELMS consists of two main external entities:</p>
 <li>The <strong>User</strong> or <strong>Admin</strong> logs in via the Authentication process.  </li>
 <li>The system validates credentials and fetches role-based details.  </li>
 <li>The <strong>Admin</strong> can manage courses and view statistics.  </li>
-<li>The <strong>User</strong> can browse courses, enroll, and give feedback.  </li>
+<li>The <strong>User</strong> can browse courses, enroll</li>
 <li>All actions update or fetch data from corresponding data stores.  </li>
 <li>The <strong>Dashboard</strong> provides summarized data to the Admin.</li>
 </ol>

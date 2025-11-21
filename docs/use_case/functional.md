@@ -45,11 +45,8 @@ The **E-Learning Management System (ELMS)** allows users to learn through free d
 - Displays all courses a user has added.
 - Allows viewing documentation.
 
-### Feedback Section
-- Users can provide feedback for the courses they enrolled in.
-
-### 2.4 Search to MyCourses
-- User Can search specific MyCourse on the basis of Course Name(Index)
+### Search to My Courses
+- User Can search specific My Course on the basis of Course Name(Index)
 
 
 ## 3. User Role: Admin
@@ -58,21 +55,19 @@ The **E-Learning Management System (ELMS)** allows users to learn through free d
 - Admins are redirected to the **Admin Dashboard** after login.
 - The dashboard provides a full overview of available courses and management actions.
 
-### 3.2 Edit Existing Course
+### 3.2 Add Course
+- Admin can add new course
+
+### 3.3 Edit Existing Course
 - Admins can modify existing course details:
 
-### 3.3 Delete Course
+### 3.4 Delete Course
 - Admins can delete courses permanently.
-## 3.4 Dashboard
+## 3.5 Dashboard
 - Admin Will be able to see total courses
 - Admin will be able to see total users
 
-
-
-
 ---
-
-
 ## 4. Summary
 The **E-Learning Management System (ELMS)** ensures an easy learning experience for students and efficient course management for admins through a role-based interactive dashboard.
 

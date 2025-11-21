@@ -12,7 +12,6 @@ It defines the entities, their attributes, and the relationships among them to e
 This design supports features such as:
 - User authentication and role-based access
 - Course enrollment and tracking
-- Feedback management
 
 ---
 
@@ -90,17 +89,6 @@ This design supports features such as:
 
 ---
 
-### **Feedbacks**
-| Field | Type | Key | Description |
-|--------|------|-----|-------------|
-| `id` | int | PK | Unique feedback identifier |
-| `user_id` | int | FK | Linked to Users |
-| `message` | varchar | - | Feedback text |
-| `created_at` | timestamp | - | Feedback submission time |
-| `updated_at` | timestamp | - | Last update time |
-| `deleted_at` | timestamp | - | Soft delete indicator |
-
-> **Relationship:** One-to-Many (A user can give multiple feedbacks).
 
 ---
 

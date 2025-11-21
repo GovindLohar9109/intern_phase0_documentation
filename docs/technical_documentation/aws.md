@@ -46,7 +46,7 @@ It leverages AWS core components such as **VPC**, **EC2**, and **RDS** to manage
 ---
 
 ###  6. Amazon RDS (Relational Database Service)
-- Hosts the **PostgreSQL database** for storing all user, course, and feedback data.
+- Hosts the **PostgreSQL database** for storing all user, course.
 - Managed service — handles backups, scaling, and availability automatically.
 - Accessible only from the EC2 instance inside the same private subnet.
 

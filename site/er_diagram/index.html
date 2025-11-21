@@ -469,15 +469,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#feedbacks" class="md-nav__link">
-    <span class="md-ellipsis">
-      Feedbacks
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -704,8 +695,7 @@
 It defines the entities, their attributes, and the relationships among them to ensure <strong>data integrity</strong>, <strong>consistency</strong>, and <strong>efficient querying</strong>.</p>
 <p>This design supports features such as:
 - User authentication and role-based access
-- Course enrollment and tracking
-- Feedback management</p>
+- Course enrollment and tracking</p>
 <hr />
 <h2 id="key-entities-and-attributes">Key Entities and Attributes</h2>
 <h3 id="users"><strong>Users</strong></h3>
@@ -991,58 +981,6 @@ Ensures a user cannot enroll in the same course twice.</p>
 <p><strong>Relationship:</strong> Many-to-Many between <code>Users</code> and <code>Courses</code>.</p>
 </blockquote>
 <hr />
-<h3 id="feedbacks"><strong>Feedbacks</strong></h3>
-<table>
-<thead>
-<tr>
-<th>Field</th>
-<th>Type</th>
-<th>Key</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>id</code></td>
-<td>int</td>
-<td>PK</td>
-<td>Unique feedback identifier</td>
-</tr>
-<tr>
-<td><code>user_id</code></td>
-<td>int</td>
-<td>FK</td>
-<td>Linked to Users</td>
-</tr>
-<tr>
-<td><code>message</code></td>
-<td>varchar</td>
-<td>-</td>
-<td>Feedback text</td>
-</tr>
-<tr>
-<td><code>created_at</code></td>
-<td>timestamp</td>
-<td>-</td>
-<td>Feedback submission time</td>
-</tr>
-<tr>
-<td><code>updated_at</code></td>
-<td>timestamp</td>
-<td>-</td>
-<td>Last update time</td>
-</tr>
-<tr>
-<td><code>deleted_at</code></td>
-<td>timestamp</td>
-<td>-</td>
-<td>Soft delete indicator</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p><strong>Relationship:</strong> One-to-Many (A user can give multiple feedbacks).</p>
-</blockquote>
 <hr />
 
 

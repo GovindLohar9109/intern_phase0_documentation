@@ -6,7 +6,7 @@ It helps in understanding the system’s functionality from the user's perspecti
 ---
 
 ###  Actors:
-- **User:** Can register, log in, browse courses, manage enrolled courses, and provide feedback.  
+- **User:** Can register, log in, browse courses, manage enrolled courses
 - **Admin:** Manages courses, monitors user activity, and maintains overall system data.
 
 ---
@@ -14,8 +14,7 @@ It helps in understanding the system’s functionality from the user's perspecti
 ###  Major Use Cases:
 - **Authentication:** Handles user login and registration.
 - **Course Management:** Allows updating, and deleting courses (admin) and viewing or enrolling (user).
-- **Feedback System:** Users can share feedback for improvement.
-- **Profile & Dashboard:** Users can view/edit their profiles, while admins can monitor key statistics.
+- **Profile & Dashboard:** Users can view/edit their profiles.
 
 ---
 

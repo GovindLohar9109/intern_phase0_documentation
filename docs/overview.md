@@ -1,6 +1,6 @@
 # **Project Overview**
 
-The **E-Learning Management System (ELMS)** is a web-based platform built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.  
+The **E-Learning Management System (ELMS)** is a web-based platform built using the  (Postgresql, Express.js, React.js, Node.js)**.  
 It is designed to make online learning simple, accessible, and effective for learners of all levels.  
 The platform allows users to access free learning documentation created by instructors and professionals.
 
