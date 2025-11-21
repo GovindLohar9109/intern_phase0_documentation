@@ -83,6 +83,7 @@ This design supports features such as:
 | `deleted_at` | timestamp | - | Soft delete indicator |
 
 > **Unique Composite Indexing:** (`user_id`, `course_id`,`delete_at`)  
+> **Unique Composite Indexing:** (`user_id`, `role_id`,`delete_at`)  
 > **Unique Composite Indexing:** (`name`, `delete_at`)  
 
 
