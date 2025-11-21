@@ -61,7 +61,7 @@ This design supports features such as:
 |--------|------|-----|-------------|
 | `id` | int | PK | Unique course identifier |
 | `name` | varchar | Index | Course name |
-| `description` | varchar | - | Course details |
+| `description` | int | - | Course details |
 | `duration` | float | - | Duration in hours |
 | `image_url` | varchar | - | Image for course display |
 | `link` | varchar | - | Link to course content |
@@ -82,10 +82,10 @@ This design supports features such as:
 | `updated_at` | timestamp | - | Enrollment update time |
 | `deleted_at` | timestamp | - | Soft delete indicator |
 
-> **Unique Composite Indexing:** (`user_id`, `course_id`)  
-> Ensures a user cannot enroll in the same course twice.
+> **Unique Composite Indexing:** (`user_id`, `course_id`,`delete_at`)  
+> **Unique Composite Indexing:** (`name`, `delete_at`)  
 
-> **Relationship:** Many-to-Many between `Users` and `Courses`.
+
 
 ---
 
