@@ -1,6 +1,6 @@
 # Welcome to the E-Learning Management System Documentation
 
-This documentation covers every part of the project — from overview to technical setup.
+This documentation covers every part of the project 
 
 ---
 
